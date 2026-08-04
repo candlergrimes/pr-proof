@@ -1,0 +1,43 @@
+=== before — .aha-bill-subscribe getBoundingClientRect().height ===
+  t=    22ms  height=  640  iframes=0  ourSkeletonBars=19
+  t=    30ms  height=   68  iframes=0  ourSkeletonBars=0
+  t=    41ms  height=   88  iframes=2  ourSkeletonBars=0
+  t=   390ms  height=  486  iframes=2  ourSkeletonBars=0
+  t=   942ms  height=  488  iframes=2  ourSkeletonBars=0
+  t=   949ms  height=  490  iframes=2  ourSkeletonBars=0
+  t=   958ms  height=  493  iframes=2  ourSkeletonBars=0
+  t=   967ms  height=  496  iframes=2  ourSkeletonBars=0
+  t=   975ms  height=  501  iframes=2  ourSkeletonBars=0
+  t=   983ms  height=  506  iframes=2  ourSkeletonBars=0
+  t=   991ms  height=  512  iframes=2  ourSkeletonBars=0
+  t=  1000ms  height=  518  iframes=2  ourSkeletonBars=0
+  t=  1008ms  height=  524  iframes=2  ourSkeletonBars=0
+  t=  1017ms  height=  530  iframes=2  ourSkeletonBars=0
+  t=  1028ms  height=  536  iframes=2  ourSkeletonBars=0
+  t=  1036ms  height=  542  iframes=2  ourSkeletonBars=0
+  t=  1044ms  height=  548  iframes=2  ourSkeletonBars=0
+  t=  1051ms  height=  553  iframes=2  ourSkeletonBars=0
+  t=  1077ms  height=  566  iframes=2  ourSkeletonBars=0
+  t=  1092ms  height=  573  iframes=2  ourSkeletonBars=0
+  t=  1101ms  height=  576  iframes=2  ourSkeletonBars=0
+  t=  1108ms  height=  579  iframes=2  ourSkeletonBars=0
+  t=  1116ms  height=  581  iframes=3  ourSkeletonBars=0
+  t=  1122ms  height=  584  iframes=3  ourSkeletonBars=0
+  t=  1133ms  height=  586  iframes=3  ourSkeletonBars=0
+  t=  1142ms  height=  588  iframes=3  ourSkeletonBars=0
+  t=  1149ms  height=  590  iframes=3  ourSkeletonBars=0
+  t=  1156ms  height=  591  iframes=3  ourSkeletonBars=0
+  t=  1163ms  height=  593  iframes=3  ourSkeletonBars=0
+  t=  1172ms  height=  594  iframes=3  ourSkeletonBars=0
+  t=  1180ms  height=  595  iframes=3  ourSkeletonBars=0
+  t=  1188ms  height=  596  iframes=3  ourSkeletonBars=0
+  t=  1197ms  height=  597  iframes=3  ourSkeletonBars=0
+  t=  1205ms  height=  598  iframes=3  ourSkeletonBars=0
+  t=  1213ms  height=  599  iframes=3  ourSkeletonBars=0
+  t=  1222ms  height=  600  iframes=3  ourSkeletonBars=0
+  t=  1239ms  height=  601  iframes=3  ourSkeletonBars=0
+  t=  1247ms  height=  602  iframes=3  ourSkeletonBars=0
+
+  frames sampled: 2274   frames with the surface mounted: 2272
+  DECREASING TRANSITIONS: 1    LARGEST SINGLE DROP: 572px
+  min=68  max=640  settled=602

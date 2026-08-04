@@ -1,0 +1,39 @@
+=== after — .aha-bill-subscribe getBoundingClientRect().height ===
+  t=    26ms  height=  465  iframes=0  ourSkeletonBars=14
+  t=   174ms  height=  482  iframes=2  ourSkeletonBars=14
+  t=   810ms  height=  484  iframes=2  ourSkeletonBars=0
+  t=   817ms  height=  486  iframes=2  ourSkeletonBars=0
+  t=   826ms  height=  489  iframes=2  ourSkeletonBars=0
+  t=   835ms  height=  493  iframes=2  ourSkeletonBars=0
+  t=   843ms  height=  497  iframes=2  ourSkeletonBars=0
+  t=   851ms  height=  502  iframes=2  ourSkeletonBars=0
+  t=   860ms  height=  508  iframes=2  ourSkeletonBars=0
+  t=   868ms  height=  514  iframes=2  ourSkeletonBars=0
+  t=   877ms  height=  520  iframes=2  ourSkeletonBars=0
+  t=   884ms  height=  526  iframes=2  ourSkeletonBars=0
+  t=   893ms  height=  532  iframes=2  ourSkeletonBars=0
+  t=   910ms  height=  544  iframes=2  ourSkeletonBars=0
+  t=   918ms  height=  549  iframes=2  ourSkeletonBars=0
+  t=   934ms  height=  558  iframes=2  ourSkeletonBars=0
+  t=   942ms  height=  562  iframes=3  ourSkeletonBars=0
+  t=   949ms  height=  565  iframes=3  ourSkeletonBars=0
+  t=   956ms  height=  569  iframes=3  ourSkeletonBars=0
+  t=   973ms  height=  575  iframes=3  ourSkeletonBars=0
+  t=   980ms  height=  577  iframes=3  ourSkeletonBars=0
+  t=   988ms  height=  580  iframes=3  ourSkeletonBars=0
+  t=   996ms  height=  582  iframes=3  ourSkeletonBars=0
+  t=  1004ms  height=  584  iframes=3  ourSkeletonBars=0
+  t=  1015ms  height=  586  iframes=3  ourSkeletonBars=0
+  t=  1026ms  height=  587  iframes=3  ourSkeletonBars=0
+  t=  1034ms  height=  589  iframes=3  ourSkeletonBars=0
+  t=  1044ms  height=  590  iframes=3  ourSkeletonBars=0
+  t=  1048ms  height=  591  iframes=3  ourSkeletonBars=0
+  t=  1064ms  height=  593  iframes=3  ourSkeletonBars=0
+  t=  1071ms  height=  594  iframes=3  ourSkeletonBars=0
+  t=  1079ms  height=  595  iframes=3  ourSkeletonBars=0
+  t=  1087ms  height=  596  iframes=3  ourSkeletonBars=0
+  t=  1104ms  height=  598  iframes=3  ourSkeletonBars=0
+
+  frames sampled: 2274   frames with the surface mounted: 2272
+  DECREASING TRANSITIONS: 0    LARGEST SINGLE DROP: 0px
+  min=465  max=598  settled=598
