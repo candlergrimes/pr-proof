@@ -1,0 +1,41 @@
+route /account
+  absent  weve-submitted-your-application
+  absent  incentive-application-approval
+  absent  application-not-approved
+  absent  were-reviewing-your-submission
+  absent  initial-offer-email
+  absent  feedback-survey
+  absent  newsletter-2027
+  absent  shot-
+  absent  status_update
+  absent  confirmation
+  absent  remediation_request
+  absent  awaiting_partner
+  absent  status_check
+  absent  admin
+  absent  wallet-demo-TH-8842
+  absent  wallet-demo-GL-1
+  absent  5f4cb81a-f6a7-4fcb-a333-ce4c3dc3f2dd
+  absent  98d387ec-2486-44ff-b4da-5b472ed44199
+  absent  any uuid
+
+route /account/incentives/6609
+  absent  weve-submitted-your-application
+  absent  incentive-application-approval
+  absent  application-not-approved
+  absent  were-reviewing-your-submission
+  absent  initial-offer-email
+  absent  feedback-survey
+  absent  newsletter-2027
+  absent  shot-
+  absent  status_update
+  absent  confirmation
+  absent  remediation_request
+  absent  awaiting_partner
+  absent  status_check
+  absent  admin
+  absent  wallet-demo-TH-8842
+  absent  wallet-demo-GL-1
+  absent  5f4cb81a-f6a7-4fcb-a333-ce4c3dc3f2dd
+  absent  98d387ec-2486-44ff-b4da-5b472ed44199
+  absent  any uuid
