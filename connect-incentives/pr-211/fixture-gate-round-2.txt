@@ -1,0 +1,42 @@
+The fixture-timeout gate, after round-1 review finding 2.
+
+Old gate: NODE_ENV !== "production". Every `next build` runs with
+NODE_ENV=production, Vercel previews included, so the fixture could only ever
+run under `next dev`.
+
+New gate: HUB_FIXTURE_HOOKS === "true" AND VERCEL_ENV !== "production".
+
+Three runs against the local rea1189 stack, all on `npm run build` +
+`npm run start`, so NODE_ENV is production in every one of them.
+
+1. Flag on, VERCEL_ENV unset. The fixture is honoured.
+
+   PORT=3191 npm run start
+   BASE_URL=http://localhost:3191 HUB_FIXTURE_HOOKS=true \
+     HUB_FIXTURE_TIMEOUT_ORGANIZATION_ID=ba24e1bb-... \
+     npx playwright test ... specs/hub-partial-failure.spec.ts
+
+   ✓ a timed out partner renders a retry row while the other partner renders (5.2s)
+   1 passed (5.6s)
+
+   This run is impossible under the old gate: the header was never sent from a
+   built deployment.
+
+2. Flag on, VERCEL_ENV=production. The fixture is refused.
+
+   PORT=3192 VERCEL_ENV=production HUB_FIXTURE_HOOKS=true \
+     HUB_FIXTURE_TIMEOUT_ORGANIZATION_ID=ba24e1bb-... npm run start
+   BASE_URL=http://localhost:3192 npx playwright test ... \
+     -g "one Home carries three incentives"
+
+   ✓ one Home carries three incentives from two partners (4.9s)
+   1 passed (5.4s)
+
+   That case asserts three rows and zero retry rows, so it fails if the header
+   leaks. It passed with the flag deliberately on.
+
+3. Flag off. The spec skips rather than reporting a failure for a header that
+   was never sent.
+
+   -  a timed out partner renders a retry row while the other partner renders
+   1 skipped
