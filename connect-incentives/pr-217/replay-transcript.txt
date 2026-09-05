@@ -1,0 +1,35 @@
+# The replay, against the local stack. Key names only, never values.
+
+$ psql -Atc "select count(*) from application_attachments where application_id in (6609,6610)"
+27
+
+$ curl -X POST "$API_BASE_URL/applications/attachments?refId=$REF&organization_id=$ORG" -H "x-api-key: $ADMIN_API_KEY" -d '{"application_id":6609,"attachment_type":"INVOICE_EQUIPMENT","filename":"equipment-invoice.pdf","contentType":"application/pdf"}'
+HTTP 200
+path: wallet-demo-TH-8842/6609/521a2096-1154-4a77-bccd-4b1b51196de9-equipment-invoice.pdf
+
+$ curl -X PUT "<signed url, host rewritten off kong>" --data-binary @equipment-invoice.pdf
+HTTP 200
+
+$ curl -X POST "$API_BASE_URL/hub/reference/$ORG/$REF/submit" -H "x-api-key: $ADMIN_API_KEY" -d @submit-body.json   # first send
+{
+  "replayed": false,
+  "steps_completed": [
+    "attachments",
+    "submissions",
+    "status"
+  ],
+  "INVOICE_EQUIPMENT": "customer_submitted"
+}
+attachments now: 28
+
+$ curl ... -d @submit-body.json   # the same body, the same submission_id
+{
+  "replayed": true,
+  "steps_completed": [
+    "attachments",
+    "submissions",
+    "status"
+  ],
+  "INVOICE_EQUIPMENT": "customer_submitted"
+}
+attachments now: 28
