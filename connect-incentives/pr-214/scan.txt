@@ -1,0 +1,22 @@
+document bytes: 84525
+wallet-demo-TH-8842: absent
+wallet-demo-GL-1: absent
+placeholder-not-a-credential: absent
+password: absent
+login: absent
+username: absent
+account_number: absent
+authenticated: absent
+utility_eiaid: absent
+customer_device_id: absent
+organization_id: absent
+reference_id: absent
+not_started: absent
+in_progress: absent
+awaiting_customer: absent
+awaiting_partner: absent
+completed: absent
+submitted: absent
+approved: absent
+rejected: absent
+uuid matches: none
