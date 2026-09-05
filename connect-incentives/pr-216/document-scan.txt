@@ -1,0 +1,24 @@
+## 1440x900-dark
+/account: forbidden=none uuid=none
+/account/incentives/{id}: forbidden=none uuid=none
+/account/information: forbidden=none uuid=none
+/account/{nickname}/refId/{refId}: forbidden=none uuid=none
+
+## 1440x900-light
+/account: forbidden=none uuid=none
+/account/incentives/{id}: forbidden=none uuid=none
+/account/information: forbidden=none uuid=none
+/account/{nickname}/refId/{refId}: forbidden=none uuid=none
+
+## 390x844-dark
+/account: forbidden=none uuid=none
+/account/incentives/{id}: forbidden=none uuid=none
+/account/information: forbidden=none uuid=none
+/account/{nickname}/refId/{refId}: forbidden=none uuid=none
+
+## 390x844-light
+/account: forbidden=none uuid=none
+/account/incentives/{id}: forbidden=none uuid=none
+/account/information: forbidden=none uuid=none
+/account/{nickname}/refId/{refId}: forbidden=none uuid=none
+

@@ -1,0 +1,117 @@
+{
+  "checksum": "4829a61fdfb98788ab00271cbb59ff5805cc880aa86abcac7cc91234074bc422",
+  "version": "4829a61fdfb9",
+  "manifest_path": "brand/manifest-4829a61fdfb9.json",
+  "manifest_latest_path": "brand/manifest.json",
+  "target": "directory:/Users/sean/Code/connect-incentives/.claude/worktrees/REA-1200/public",
+  "published": 75,
+  "skipped": [],
+  "manifest": {
+    "schema_version": 1,
+    "generated_at": "2026-09-05T04:34:00.112Z",
+    "checksum": "4829a61fdfb98788ab00271cbb59ff5805cc880aa86abcac7cc91234074bc422",
+    "base_path": "/brand",
+    "default_extension": "png",
+    "asset_count": 75,
+    "assets": {
+      "manufacturer": {
+        "ac-dandy": {
+          "any": {
+            "content_type": "image/png",
+            "height": 143,
+            "path": "/brand/manufacturer/ac-dandy-any.png",
+            "sha256": "5e34b144ef8c76bf58f58b608225ef0aa8f5f2846836306b9f3de8f8e755c022",
+            "width": 292
+          }
+        },
+        "acura": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/acura-any.png",
+            "sha256": "012abc6fa39cba83a06dd04597d2f0773ff9a72ba9e116329ee884b9365db0eb",
+            "width": 128
+          }
+        },
+        "alfa-romeo": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/alfa-romeo-any.png",
+            "sha256": "6a4f7a17df86cf6496e8d88ee8e222e77b610eedc6cf04195132e8e8f335974e",
+            "width": 128
+          }
+        },
+        "ampure": {
+          "any": {
+            "content_type": "image/png",
+            "height": 48,
+            "path": "/brand/manufacturer/ampure-any.png",
+            "sha256": "e5db88ea2322863ca17817b99d60006c625a31cff0dad49cf05d3c6d16a75c17",
+            "width": 48
+          }
+        },
+        "audi": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/audi-any.png",
+            "sha256": "8496db591eb3d03bbbf8ddb178ecd558092972d93ee9082731c1105c88cdca62",
+            "width": 128
+          }
+        },
+        "autel": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/autel-any.png",
+            "sha256": "c8b32a784d43807f259a99e6df467fd51333ac0d6743636b0d0bc221053cc4d1",
+            "width": 128
+          }
+        },
+        "bentley": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/bentley-any.png",
+            "sha256": "bd5512012b66251c89895b0b2fc90228e1d33cd7b9a5f3ec9d703c33022dc655",
+            "width": 128
+          }
+        },
+        "blink": {
+          "any": {
+            "content_type": "image/png",
+            "height": 32,
+            "path": "/brand/manufacturer/blink-any.png",
+            "sha256": "e3fb6176cb21907b6824ed598a335882b6a7464ee92532ed7341dd450abd37ff",
+            "width": 32
+          }
+        },
+        "bmw": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/bmw-any.png",
+            "sha256": "403048e3213fca51e695869477b65ea5c7244edacbd4e6dde1b05ed8cf2c9093",
+            "width": 128
+          }
+        },
+        "bugatti": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/bugatti-any.png",
+            "sha256": "0f7a2e947d646acc607b6d475e20dd1c0e85409e66e7ccf62bee733d9c8e1b6c",
+            "width": 128
+          }
+        },
+        "bugatti-rimac": {
+          "any": {
+            "content_type": "image/png",
+            "height": 128,
+            "path": "/brand/manufacturer/bugatti-rimac-any.png",
+            "sha256": "0f7a2e947d646acc607b6d475e20dd1c0e85409e66e7ccf62bee733d9c8e1b6c",
+            "width": 128
+          }
+        },
+        "cadil
