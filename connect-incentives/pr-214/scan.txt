@@ -1,4 +1,4 @@
---- /account/information (84468 bytes) ---
+--- /account/information (84800 bytes) ---
 wallet-demo-TH-8842: absent
 wallet-demo-GL-1: absent
 placeholder-not-a-credential: absent
@@ -22,7 +22,7 @@ approved: absent
 rejected: absent
 uuid matches: none
 
---- /account (77294 bytes) ---
+--- /account (77616 bytes) ---
 wallet-demo-TH-8842: absent
 wallet-demo-GL-1: absent
 placeholder-not-a-credential: absent
