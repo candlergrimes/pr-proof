@@ -1,0 +1,6 @@
+One /account page load, counted in the edge runtime log.
+The call is server to server, so a browser network panel cannot see it.
+
+hub.summary calls: 1
+
+[Info] {"event":"hub.summary","request_id":"c8af8db6-4939-456a-b6c8-8abb443e4b4d","duration_ms":24,"link_count":2,"links":[{"organization_id":"8c5fc244-1bd5-4b0b-b93b-60f4c12b3ac6","status":"ok"},{"organization_id":"ba24e1bb-428d-4195-b634-c067078537fb","status":"ok"}]}
