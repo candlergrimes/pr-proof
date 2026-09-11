@@ -1,0 +1,88 @@
+[
+  {
+    "run": "400px",
+    "checks": {
+      "landing_content_visible_once": true,
+      "screen2_ready_once": true,
+      "checklist_ready_once": true,
+      "marks_in_screen_order": true,
+      "get_started_to_screen2_once": true,
+      "continue_to_checklist_once": true,
+      "sdk_init_stubbed": true,
+      "no_datadog_network": true
+    },
+    "marks": [
+      "addTiming landing_content_visible 179.6",
+      "addTiming screen2_ready 1748.1",
+      "addDurationVital get_started_to_screen2 start 1735.9 dur 12.2",
+      "addTiming checklist_ready 1748.2",
+      "addDurationVital continue_to_checklist start 2800.8 dur 318.3"
+    ],
+    "locating": [],
+    "unmocked": [
+      "PATCH /api/applications",
+      "POST /api/notifications/slack"
+    ],
+    "consoleErrors": 2
+  },
+  {
+    "run": "1280px",
+    "checks": {
+      "landing_content_visible_once": true,
+      "screen2_ready_once": true,
+      "checklist_ready_once": true,
+      "marks_in_screen_order": true,
+      "get_started_to_screen2_once": true,
+      "continue_to_checklist_once": true,
+      "sdk_init_stubbed": true,
+      "no_datadog_network": true
+    },
+    "marks": [
+      "addTiming landing_content_visible 85.5",
+      "addTiming screen2_ready 1652.8",
+      "addDurationVital get_started_to_screen2 start 1640.3 dur 12.5",
+      "addTiming checklist_ready 1652.8",
+      "addDurationVital continue_to_checklist start 2708 dur 310.9"
+    ],
+    "locating": [],
+    "unmocked": [
+      "PATCH /api/applications",
+      "POST /api/notifications/slack"
+    ],
+    "consoleErrors": 2
+  },
+  {
+    "run": "1280px-provisioning-race",
+    "checks": {
+      "landing_content_visible_once": true,
+      "screen2_ready_once": true,
+      "checklist_ready_once": true,
+      "marks_in_screen_order": true,
+      "get_started_to_screen2_once": true,
+      "continue_to_checklist_once": true,
+      "sdk_init_stubbed": true,
+      "no_datadog_network": true,
+      "locating_screen_shown_reported": true
+    },
+    "marks": [
+      "addTiming landing_content_visible 2102.7",
+      "addTiming screen2_ready 2384.8",
+      "addDurationVital get_started_to_screen2 start 2373.4 dur 11.5",
+      "addTiming checklist_ready 2384.9",
+      "addDurationVital continue_to_checklist start 2428.6 dur 307.4"
+    ],
+    "locating": [
+      {
+        "attemptsCompleted": 1,
+        "placement": "before_landing",
+        "state": "waiting",
+        "sinceNavigationMs": 76
+      }
+    ],
+    "unmocked": [
+      "PATCH /api/applications",
+      "POST /api/notifications/slack"
+    ],
+    "consoleErrors": 3
+  }
+]

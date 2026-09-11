@@ -1,0 +1,127 @@
+{
+  "run": "1280px-provisioning-race",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "url": "http://localhost:3232/proof-solar/refId/rea-1232-proof",
+  "backends": "all /api/* fulfilled by mocks in this script; server compute off (CONNECT_SERVER_BOOTSTRAP_COMPUTE=off plus connect_client_compute cookie)",
+  "checks": {
+    "landing_content_visible_once": true,
+    "screen2_ready_once": true,
+    "checklist_ready_once": true,
+    "marks_in_screen_order": true,
+    "get_started_to_screen2_once": true,
+    "continue_to_checklist_once": true,
+    "sdk_init_stubbed": true,
+    "no_datadog_network": true,
+    "locating_screen_shown_reported": true
+  },
+  "screenTimingCalls": [
+    {
+      "method": "addTiming",
+      "name": "landing_content_visible",
+      "relativeMs": 2102.7,
+      "calledAtMs": 2102.7
+    },
+    {
+      "method": "addTiming",
+      "name": "screen2_ready",
+      "relativeMs": 2384.8,
+      "calledAtMs": 2384.8
+    },
+    {
+      "method": "addDurationVital",
+      "name": "get_started_to_screen2",
+      "startRelativeMs": 2373.4,
+      "durationMs": 11.5,
+      "context": {
+        "applicationsReadyAtClick": true
+      },
+      "calledAtMs": 2384.9
+    },
+    {
+      "method": "addTiming",
+      "name": "checklist_ready",
+      "relativeMs": 2384.9,
+      "calledAtMs": 2384.9
+    },
+    {
+      "method": "addDurationVital",
+      "name": "continue_to_checklist",
+      "startRelativeMs": 2428.6,
+      "durationMs": 307.4,
+      "context": {
+        "flowReadyAtClick": true
+      },
+      "calledAtMs": 2736
+    }
+  ],
+  "locatingActions": [
+    {
+      "method": "addAction",
+      "name": "locating_screen_shown",
+      "context": {
+        "attemptsCompleted": 1,
+        "placement": "before_landing",
+        "state": "waiting",
+        "sinceNavigationMs": 76
+      },
+      "calledAtMs": 76.3
+    }
+  ],
+  "otherSdkCalls": [
+    {
+      "sdk": "rum",
+      "method": "init",
+      "calledAtMs": 69.3
+    },
+    {
+      "sdk": "logs",
+      "method": "init",
+      "calledAtMs": 69.3
+    },
+    {
+      "sdk": "rum",
+      "method": "setUser",
+      "calledAtMs": 73.6
+    },
+    {
+      "sdk": "rum",
+      "method": "addAction",
+      "name": "session_started",
+      "calledAtMs": 2109.9
+    },
+    {
+      "sdk": "rum",
+      "method": "addAction",
+      "name": "form_step_viewed",
+      "calledAtMs": 2126.6
+    }
+  ],
+  "apiCalls": [
+    "POST /api/incentives/refresh",
+    "GET /api/search-applications",
+    "GET /api/search-applications",
+    "PATCH /api/applications",
+    "GET /api/connect/attachments",
+    "GET /api/customer-utility-credentials",
+    "POST /api/fields",
+    "POST /api/notifications/slack"
+  ],
+  "unmockedApiCallsAnsweredWithOk": [
+    "PATCH /api/applications",
+    "POST /api/notifications/slack"
+  ],
+  "datadogNetworkBlocked": [],
+  "failedResponses": [
+    "404 /api/search-applications",
+    "404 /_vercel/insights/script.js",
+    "404 /_vercel/speed-insights/script.js"
+  ],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}
