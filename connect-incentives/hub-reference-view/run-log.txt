@@ -1,0 +1,24 @@
+signed-out landing: /sign-in?next=%2Faccount%2FLeapfrogPower%2FrefId%2FWALLET-UI-1
+shot 01-signed-out-sign-in-1440-light
+after sign-in: /account/LeapfrogPower/refId/WALLET-UI-1
+state {
+  "anchor": true,
+  "incentiveRows": 2,
+  "hrefs": [
+    "/account/incentives/9757",
+    "/account/incentives/9756"
+  ],
+  "heading": "One thing left on your Leapfrog Power Inc. incentive",
+  "actionItemsText": "Needs your attentionVehicle RegistrationWe could not find this document in what has been shared so far. Please upload it.Tap to uploadClick to upload or drag and dropPDF or photo · Max size: 50 MBSubmitLeap files it for you.",
+  "band": "Leapfrog Power Inc.WALLET-UI-1powered by"
+}
+shot 02-reference-view-1440-light
+shot 03-reference-view-1440-dark
+shot 04-reference-view-390-light
+shot 05-reference-view-390-dark
+shot 06-action-items-anchor-1440-light
+incentives list rows ["/account/LeapfrogPowerInc/refId/WALLET-UI-1","/account/incentives/9757"]
+WALLET-UI-3 landed on /account/claim/LeapfrogPower/WALLET-UI-3
+shot 07-wallet-ui-3-landing-1440-light
+?form=1 landed on /LeapfrogPower/refId/WALLET-UI-1?form=1
+shot 10-form-escape-1440-light
