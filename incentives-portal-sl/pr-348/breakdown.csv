@@ -1,0 +1,41 @@
+Summary
+Field,Value
+Report name,Portfolio: 1 utility
+Run date,2026-09-19
+Forecast year,2027
+Scope,Utilities
+What you named,Baltimore Gas & Electric Co
+Sites you expect,2000
+Eligible sites,1800
+Revenue potential per year,201312
+10-year revenue potential,1217937.6
+How long sites stay enrolled,"Sites drop out over time. Of the sites enrolled in year 1, Leap expects 90 percent in year 3, 70 percent in year 5 and 10 percent in year 10. Years in between fall evenly."
+
+By state
+State,Sites,Eligible sites,Eligible share,Revenue potential
+Maryland (MD),2000,1800,0.9,201312
+
+By utility
+Utility,State,Sites,Eligible sites,Eligible share,Revenue potential
+Baltimore Gas & Electric Co,MD,2000,1800,0.9,201312
+
+By program
+Program,Operator,Eligible sites,Revenue potential
+Leapfrog Power VPP Offer,Leapfrog Power,1800,201312
+
+Revenue over time
+Year,Sites still enrolled,Revenue that year,Running total
+2027,1,201312,201312
+2028,0.95,191246.4,392558.4
+2029,0.9,181180.8,573739.2
+2030,0.8,161049.6,734788.8
+2031,0.7,140918.4,875707.2
+2032,0.58,116760.96,992468.16
+2033,0.46,92603.52,1085071.68
+2034,0.34,68446.08,1153517.76
+2035,0.22,44288.64,1197806.4
+2036,0.1,20131.2,1217937.6
+
+Notes
+Note
+This assumes every site you expect to sell enrolls in 2027.
