@@ -1,0 +1,50 @@
+"Summary
+Field,Value
+Report name,Portfolio: 1 utility
+Run date,2026-09-23
+Forecast year,2027
+Scope,Not recorded
+What you named,
+Sites you expect,40
+Eligible sites,31
+Partner revenue per year,3422.3
+Customer incentives per year,0
+10-year partner revenue (present value),16607.44
+Annual discount rate,0.08
+How long sites stay enrolled,\"Sites drop out over time. Of the sites enrolled in year 1, Leap expects 90 percent in year 3. It expects 70 percent in year 5 and 10 percent in year 10. Years in between fall evenly.\"
+
+By state
+State,Sites,Eligible sites,Eligible share,Partner revenue,Customer incentives
+Maryland (MD) · Residential,34,31,0.9,3422.3,0
+State not resolved,6,0,0,0,0
+
+By utility
+Utility,State,Sites,Eligible sites,Eligible share,Partner revenue,Customer incentives
+Baltimore Gas & Electric Co,,34,31,0.9,3422.3,0
+Delmarva Power,,2,0,0,0,0
+Potomac Electric Power Co,,2,0,0,0,0
+Southern Maryland Elec Coop Inc,,1,0,0,0,0
+The Potomac Edison Company,,1,0,0,0,0
+
+By program
+Program,Operator,Paid to,Eligible sites,Partner revenue,Customer incentives
+Leapfrog Power VPP Offer,Leapfrog Power,Your revenue,36,3422.3,0
+
+Partner revenue over time
+Year,Sites still enrolled,Revenue that year,Present value,Running total (present value)
+2027,1,3422.3,3422.3,3422.3
+2028,0.95,3251.19,3010.36,6432.66
+2029,0.9,3080.07,2640.67,9073.33
+2030,0.8,2737.84,2173.39,11246.72
+2031,0.7,2395.61,1760.85,13007.57
+2032,0.58,1984.94,1350.91,14358.48
+2033,0.46,1574.26,992.05,15350.53
+2034,0.34,1163.58,678.94,16029.47
+2035,0.22,752.91,406.77,16436.24
+2036,0.1,342.23,171.2,16607.44
+
+Notes
+Note
+This assumes every site you expect to sell enrolls in 2027.
+\"Later years are discounted 8 percent a year, because money you get later is worth less than money now.\"
+"
