@@ -1,0 +1,20 @@
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 1135ms
+[36m[info][0m %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[33m[warning][0m [Datadog RUM] Monitoring disabled for env:  - no sessions will be recorded.
+[33m[warning][0m Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 138ms
+[log] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[log] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /reports/new, path: /reports/new}
+[log] %c[Vercel Web Analytics]%c [view] http://localhost:3001/reports/new color: rgb(120, 120, 120) color: inherit {o: http://localhost:3001/reports/new, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 1.3.1, ts: 1790208659039} /_vercel/insights/view
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 297ms
+[36m[info][0m %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[33m[warning][0m [Datadog RUM] Monitoring disabled for env:  - no sessions will be recorded.
+[33m[warning][0m Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[log] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[log] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /reports/[id], path: /reports/db1124dc-5f2f-43a2-a24f-30b2eade2979}
+[log] %c[Vercel Web Analytics]%c [view] http://localhost:3001/reports/db1124dc-5f2f-43a2-a24f-30b2eade2979 color: rgb(120, 120, 120) color: inherit {o: http://localhost:3001/reports/db1124dc-5f2f-43a2-a24f-30b2eade2979, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 1.3.1, ts: 1790208660804} /_vercel/insights/view
