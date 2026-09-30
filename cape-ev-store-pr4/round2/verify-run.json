@@ -1,0 +1,15 @@
+[
+ "quotes while typing Atlanta: 0",
+ "quotes after submit: 1; panel: REBATES AND VPP VIA GEORGIA POWER CO $200 back after install HOW YOU GET PAID Paid after install $200 Georgia Power Residential Level 2 EV Charger Rebate $150 Georgia Power HEIP \u2013 Residential Level-2 EV Charger Rebate $5",
+ "summary with matching ship-to: After purchase shown",
+ "after editing street post-commit: After purchase visible=False, Due today text=$973.17",
+ "after restoring street: After purchase visible=True",
+ "Place order enabled with ZIP 303: False",
+ "Place order enabled with ZIP 30303: True",
+ "place order skipped on this run: the one allowed prod application was created in run 1 (cape-CP-FYRWS4)",
+ "quotes while typing ZIP: 0",
+ "zip quotes after Enter: 1 location={\"kind\": \"zip\", \"zip_code\": \"30303\", \"country_code\": \"US\"}; panel: REBATES AND VPP VIA GEORGIA POWER CO $200 back after install HOW YOU GET PAID Paid after install $200 Georgia Power Residential Level 2 EV Charger Rebate $150 Georgia Power HEIP \u2013 Residential Level-2 ",
+ "ZIP-mode checkout: After purchase visible=False",
+ "after ?lookup=zipp stored mode=zip url=https://cape-ecommerce-incentives-git-ev-charging-store-leap-687ed57f.vercel.app/",
+ "page errors: []"
+]

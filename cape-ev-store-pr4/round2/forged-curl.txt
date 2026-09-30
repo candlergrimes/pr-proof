@@ -1,0 +1,14 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+Retrieving project…
+Downloading `development` Environment Variables
+Loaded env from /Users/sean/Code/cape-store/.env.local
+== forged: made-up referenceId, no Origin
+{"ok":false,"error":{"message":"Order lookups are only accepted from this store's checkout.","retryable":false}}  HTTP 400
+== forged: made-up referenceId, spoofed same Origin
+{"ok":false,"error":{"message":"An order lookup needs this store's order reference.","retryable":false}}  HTTP 400
+== forged: valid-format referenceId, cross-site Origin
+{"ok":false,"error":{"message":"Order lookups are only accepted from this store's checkout.","retryable":false}}  HTTP 400
+== null body
+{"ok":false,"error":{"message":"Malformed request body.","retryable":false}}  HTTP 400
+== devices not an array
+{"ok":false,"error":{"message":"Malformed device list.","retryable":false}}  HTTP 400

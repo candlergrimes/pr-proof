@@ -1,0 +1,11 @@
+Preview run 1 (ec2890a), the only Place order in round 2. Output lines as printed by verify2.py:
+quotes while typing Atlanta: 0
+quotes after submit: 1
+summary with matching ship-to: After purchase shown
+after editing street post-commit: After purchase visible=False, Due today text=$973.17
+after restoring street: After purchase visible=True
+Place order enabled with ZIP 303: False
+Place order enabled with ZIP 30303: True
+place order request: mode=checkout ref=cape-CP-FYRWS4 kind=address status=200
+stored order leap: reference_id=cape-CP-FYRWS4 connect_url_present=True host=connect.incentives.leap.energy install=200 ongoing=0
+Start your claim link count=1
