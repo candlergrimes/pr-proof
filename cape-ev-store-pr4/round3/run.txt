@@ -1,0 +1,24 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+[desktop-pacific] fresh browser: ZIP field=1 street field=0
+[desktop-pacific] quotes while typing 30303: 0
+[desktop-pacific] quotes after Enter: 1 location={"kind": "zip", "zip_code": "30303", "country_code": "US"}; panel: REBATES AND VPP VIA GEORGIA POWER CO $200 back after install HOW YOU GET PAID Paid after install $200 Georgia Power Residential Level 2 EV Charger Rebate $150 Georgia Power HEIP – Residential Level-2 EV Charger
+[desktop-pacific] ZIP-mode checkout: quotes while typing shipping address=0, Check incentives buttons in shipping form=0
+[desktop-pacific] place order body: mode=checkout ref=cape-CP-42782E location={"kind": "address", "address_line_1": "55 Trinity Ave SW", "address_line_2": "", "city": "Atlanta", "state": "GA", "zip_code": "30303", "country_code": "US"}
+[desktop-pacific] stored order: reference_id=cape-CP-42782E connect_url_present=True host=connect.incentives.leap.energy install=200; Start your claim links=1
+[desktop-pacific] ?lookup=address url after strip: https://cape-ecommerce-incentives-git-ev-charging-store-leap-687ed57f.vercel.app/products/mistral-48
+[desktop-pacific] address fields present: Street address=1, Apartment, unit, suite=1, City=1, State=1, ZIP code=1
+[desktop-pacific] quotes while typing Atlanta address: 0
+[desktop-pacific] quotes after Enter: 1 location={"kind": "address", "address_line_1": "55 Trinity Ave SW", "address_line_2": "", "city": "Atlanta", "state": "GA", "zip_code": "30303", "country_code": "US"}; panel: REBATES AND VPP VIA GEORGIA POWER CO $200 back after install HOW YOU GET PAID Paid after install $200 Georgia Power
+[desktop-pacific] google/gstatic requests: []
+[desktop-pacific] request hosts: {"cape-ecommerce-incentives-git-ev-charging-store-leap-687ed57f.vercel.app": 85, "vercel.live": 3}
+[desktop-pacific] page errors: []
+[phone-riviera] fresh browser: ZIP field=1 street field=0
+[phone-riviera] quotes while typing 30303: 0
+[phone-riviera] quotes after Enter: 1 location={"kind": "zip", "zip_code": "30303", "country_code": "US"}; panel: REBATES AND VPP VIA GEORGIA POWER CO $200 back after install HOW YOU GET PAID Paid after install $200 Georgia Power Residential Level 2 EV Charger Rebate $150 Georgia Power HEIP – Residential Level-2 EV Charger
+[phone-riviera] ?lookup=address url after strip: https://cape-ecommerce-incentives-git-ev-charging-store-leap-687ed57f.vercel.app/products/mistral-48
+[phone-riviera] address fields present: Street address=1, Apartment, unit, suite=1, City=1, State=1, ZIP code=1
+[phone-riviera] quotes while typing Atlanta address: 0
+[phone-riviera] quotes after Enter: 1 location={"kind": "address", "address_line_1": "55 Trinity Ave SW", "address_line_2": "", "city": "Atlanta", "state": "GA", "zip_code": "30303", "country_code": "US"}; panel: REBATES AND VPP VIA GEORGIA POWER CO $200 back after install HOW YOU GET PAID Paid after install $200 Georgia Power R
+[phone-riviera] google/gstatic requests: []
+[phone-riviera] request hosts: {"cape-ecommerce-incentives-git-ev-charging-store-leap-687ed57f.vercel.app": 76, "vercel.live": 3}
+[phone-riviera] page errors: []

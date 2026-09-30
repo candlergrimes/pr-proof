@@ -1,0 +1,12 @@
+== ZIP 30303
+HTTP 200 ref= cape-preview-… util= Georgia Power Co summary= {'upfront_amount': 0.0, 'install_amount': 200.0, 'ongoing_amount': 0.0}
+  - Coweta-Fayette EMC Residential Level-2 EV Charger Rebate 0.0 0.0 0.0
+  - Georgia Power HEIP – Residential Level-2 EV Charger Rebate 50.0 0.0 0.0
+  - Georgia Power Residential Level 2 EV Charger Rebate 150.0 0.0 0.0
+  - GreyStone Power Residential Level-2 EV Charger Rebate 0.0 0.0 0.0
+  - Sawnee EMC Residential Level-2 EV Charger Rebate 0.0 0.0 0.0
+== ZIP 80202
+HTTP 200 ref= cape-preview-… util= Xcel Energy summary= {'upfront_amount': 0.0, 'install_amount': 550.0, 'ongoing_amount': 200.0}
+  - Xcel Energy Colorado – Residential Charging Perks Pilot 50.0 150.0 0.0
+  - Xcel Energy – Optimize Your Charge (Residential Managed Charging) 0.0 50.0 0.0
+  - Xcel Energy Residential EV Charger & Home-Wiring Rebate 500.0 0.0 0.0
