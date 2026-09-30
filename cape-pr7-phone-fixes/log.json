@@ -1,0 +1,22 @@
+[
+ "[390-pacific] Add to cart button: height=48px width=350px",
+ "[390-pacific] checkout address mode, before commit: street inputs on page=1 (card=0), Check incentives buttons=1",
+ "[390-pacific] after Enter in shipping form: quotes=1; card line='1' Change buttons in card=0; street inputs on page=1",
+ "[390-pacific] checkout ZIP mode: card ZIP entries=1 street inputs in card=0",
+ "[390-pacific] page errors: []",
+ "[390-riviera] Add to cart button: height=48px width=350px",
+ "[390-riviera] checkout address mode, before commit: street inputs on page=1 (card=0), Check incentives buttons=1",
+ "[390-riviera] after Enter in shipping form: quotes=1; card line='1' Change buttons in card=0; street inputs on page=1",
+ "[390-riviera] checkout ZIP mode: card ZIP entries=1 street inputs in card=0",
+ "[390-riviera] page errors: []",
+ "[1440-pacific] Add to cart button: height=48px width=476px",
+ "[1440-pacific] checkout address mode, before commit: street inputs on page=1 (card=0), Check incentives buttons=1",
+ "[1440-pacific] after Enter in shipping form: quotes=1; card line='1' Change buttons in card=0; street inputs on page=1",
+ "[1440-pacific] checkout ZIP mode: card ZIP entries=1 street inputs in card=0",
+ "[1440-pacific] page errors: []",
+ "[1440-riviera] Add to cart button: height=48px width=476px",
+ "[1440-riviera] checkout address mode, before commit: street inputs on page=1 (card=0), Check incentives buttons=1",
+ "[1440-riviera] after Enter in shipping form: quotes=1; card line='1' Change buttons in card=0; street inputs on page=1",
+ "[1440-riviera] checkout ZIP mode: card ZIP entries=1 street inputs in card=0",
+ "[1440-riviera] page errors: []"
+]
