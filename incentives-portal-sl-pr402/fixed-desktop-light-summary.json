@@ -1,0 +1,23 @@
+{
+  "tag": "fixed-desktop-light",
+  "visited": [
+    "Claim your incentive"
+  ],
+  "canvasShown": 0,
+  "prefilledDate": "2026-10-03",
+  "submitEnabledPrefilled": true,
+  "submitEnabledEmpty": false,
+  "submitEnabledFilled": true,
+  "attachmentPosts": [
+    {
+      "type": "SIGNATURE",
+      "filename": "signature-date-Austin-Energy-EV-Charger-Rebate-4101-1791043510928.txt",
+      "applicationId": "4101",
+      "contents": "2026-10-03"
+    }
+  ],
+  "afterSubmit": "Your application is complete",
+  "unmocked": [
+    "POST /api/notifications/slack"
+  ]
+}
